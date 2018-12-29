@@ -359,7 +359,7 @@
   #define _TEMP_H_
 
   int add(int a, int b){
-  return a+b;}
+    return a+b;}
   #endif
   ```
 ---
@@ -395,3 +395,7 @@
     return a+b;
   }
   ```
+
+---
+## 정리
+  * 전처리기의 사용은 필수는 아니지만 때에 따라서 소스코드를 획기적으로 줄일 수 있다.
